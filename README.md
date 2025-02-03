@@ -1,3 +1,24 @@
+# Semantic release
+
+> semantic-release automates the whole package release workflow including: determining the next version number, generating the release notes, and publishing the package.
+
+- https://semantic-release.gitbook.io/semantic-release
+- Semantic release uses [angular commit message convention](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-format)
+
+### How this is beneficial?
+
+- Fully automated release
+- Enforce Semantic Versioning specification
+- New features and fixes are immediately available to users
+- Notify maintainers and users of new releases
+- Use formalized commit message convention to document changes in the codebase
+- Publish on different distribution channels (such as npm dist-tags) based on git merges
+- Integrate with your continuous integration workflow
+- Avoid potential errors associated with manual releases
+- Support any package managers and languages via plugins
+- Simple and reusable configuration via shareable configurations
+- Support for npm package provenance that promotes increased supply-chain security via signed attestations on GitHub Actions
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
