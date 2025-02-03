@@ -9,7 +9,7 @@ interface TextProps {
 	 */
 	children: ReactNode
 	/**
-	 * Accepts string for additional styles for the text i.e spacing, colours, etc.
+	 * Accepts string for additional styles for the text i.e spacing, colors, etc.
 	 */
 	className?: string
 	/**

@@ -13,7 +13,7 @@ interface ButtonProps extends HTMLProps<HTMLButtonElement> {
    */
   type?: 'button' | 'submit' | 'reset' | undefined
   /**
-   * Different button styles primarly on colours.
+   * Different button styles primarly on colors.
    */
   variant?: 'primary' | 'secondary' | ''
 }
