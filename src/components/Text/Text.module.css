@@ -1,0 +1,87 @@
+.Text {
+  color: var(--content-color);
+  font-family: var(--font-family-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.45;
+  margin: 0 0 1rem 0;
+}
+
+.Text.largeTitle,
+.Text.title,
+.Text.title2,
+.Text.title3 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.Text.thinTitle {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.Text.hero {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.Text.intro {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.Text.largeTitle {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.Text.title {
+  font-size: 1.75rem;
+}
+
+.Text.thinTitle2,
+.Text.title2 {
+  font-size: 1.5rem;
+}
+
+.Text.title3 {
+  font-size: 1.25rem;
+}
+
+.Text.headline {
+  font-weight: 600;
+  margin-bottom: .25rem;
+}
+
+.Text.subhead {
+  font-size: .875rem;
+}
+
+.Text.caption,
+.Text.footnote {
+  font-size: .75rem;
+}
+
+.Text.caption {
+  text-transform: uppercase;
+}
+
+.Text.center {
+  text-align: center;
+}
+
+.Text.right {
+  text-align: right;
+}
+
+@media (min-width: 743px) {
+  .Text.hero {
+    font-size: 5rem;
+  }
+
+  .Text.intro {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+}
