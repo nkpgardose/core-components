@@ -15,7 +15,7 @@ interface ButtonProps extends HTMLProps<HTMLButtonElement> {
   /**
    * Different button styles primarly on colors.
    */
-  variant?: 'primary' | 'secondary' | ''
+  variant?: 'primary' | 'secondary' | 'tertiary' | ''
 }
 
 function Button({
